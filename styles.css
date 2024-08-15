@@ -10,7 +10,10 @@
     --colorDark2: #3F72AF;
     --colorLight1: #DBE2EF;
     --colorLight2: #F9F7F7;
+
 }
+
+
 
 .wrapper{
     width:100vw;
@@ -40,11 +43,11 @@ h1 {
     letter-spacing: 1.75px;
     padding: 5px 8px;
 }
-
-.tab.current-tab{
+/* hold */
+.tab.current-tab{  
     background-color: rgba(219, 226, 239, 0.5);
     border-radius: 4px;
-}
+}  
 
 .weather-container{
     margin-block:4rem;
@@ -52,9 +55,6 @@ h1 {
 
 .btn{
     all: unset;
-    /* appearance: none;
-    border:none;
-    color: white; */
     font-size: 0.85rem;
     text-transform: uppercase;
     border-radius: 5px;
@@ -165,7 +165,7 @@ h1 {
     display: flex;
     flex-direction: column;
     gap:5px 0;
-    /* justify-content: space-between; */
+    
     align-items: center; 
 }   
 
