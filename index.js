@@ -117,9 +117,7 @@ function getLocation() {
     if(navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
     }
-    else {
-        //HW - show an alert for no gelolocation support available
-    }
+   
 }
 
 function showPosition(position) {
@@ -163,7 +161,7 @@ async function fetchSearchWeatherInfo(city) {
         userInfoContainer.classList.add("active");
         renderWeatherInfo(data);
     }
-    catch(err) {
-        //hW
+    catch(error){
+        console.log(error)
     }
 }
